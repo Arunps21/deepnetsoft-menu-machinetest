@@ -15,6 +15,10 @@ app.use("/item", itemRouter);
 
 const PORT = process.env.PORT || 9000; 
 
+app.get("/", (req, res) => {
+    res.send("Welcome to the Deep Net Soft Machine Test");
+})
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
