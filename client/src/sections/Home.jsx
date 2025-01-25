@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import Button from './Button'
-import ContactUsPage from './ContactUsPage'
+import ContactUs from './ContactUs'
 import Item from './Item'
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
         <Hero/>
         <Button/>
         <Item/>
-        <ContactUsPage/>
+        <ContactUs/>
     </div>
   )
 }

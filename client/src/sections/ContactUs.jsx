@@ -8,7 +8,7 @@ import { FiInstagram } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
 import { dns } from "../assets/images/image";
 
-const ContactUsPage = () => {
+const ContactUs = () => {
   return (
     <div className="bg-black text-white p-16">
       <div className="flex flex-col md:flex-row md:gap-6 gap-4">
@@ -32,10 +32,10 @@ const ContactUsPage = () => {
             <span className="text-stone-500">SOFT</span>
           </h2>
           <div className="flex items-center justify-center gap-4 mt-2 relative bottom-6">
-            <FiFacebook className="text-stone-800" />
-            <FaTwitter className="text-stone-800" />
-            <FaYoutube className="text-stone-800" />
-            <FiInstagram className="text-stone-800" />
+            <FiFacebook className="text-stone-600" />
+            <FaTwitter className="text-stone-600" />
+            <FaYoutube className="text-stone-600" />
+            <FiInstagram className="text-stone-600" />
           </div>
         </div>
 
@@ -44,7 +44,7 @@ const ContactUsPage = () => {
           <div className="mt-4">
             <div className="flex flex-col gap-2">
               <p className="text-white flex items-center gap-2">
-                <CiLocationOn className="text-warning" /> First floor, Geo
+                <CiLocationOn className="text-yellow-500" /> First floor, Geo
                 Infopark,
               </p>
               <p className="text-white">Infopark EXPY, Kakkanad</p>
@@ -56,4 +56,4 @@ const ContactUsPage = () => {
   );
 };
 
-export default ContactUsPage;
+export default ContactUs;

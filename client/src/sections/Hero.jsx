@@ -7,7 +7,7 @@ const Hero = () => {
       <img
         src={hero}
         alt="Hero"
-        className="h-[50vh] md:h-[70vh] w-full object-cover"
+        className="h-[50vh] md:h-[70vh] w-full  object-cover md:object-fill"
       />
       <p className="absolute text-gray-500 left-35 top-0 text-xl  font-semibold hidden lg:block">
         SOFT
