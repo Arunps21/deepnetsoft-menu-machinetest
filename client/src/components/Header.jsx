@@ -7,12 +7,12 @@ import { RxCross1 } from "react-icons/rx";
 const Header = () => {
   const [visible, setVisible] = useState(false);
   return (
-    <div className="bg-[#121618] px-16 flex justify-between items-center md:items-baseline ">
-      <div className="flex items-baseline pt-5 gap-3">
+    <div className="bg-[#121618] px-16 flex justify-between items-center md:items-baseline">
+      <div className="flex flex-col sm:flex-row justify-center items-center sm:items-center md:items-baseline pt-5 gap-3 w-full sm:w-auto">
         <img
           src={dns}
           alt=""
-          className="w-16 relative  left-36 md:left-0  top-8 z-10"
+          className="w-16 relative md:left-0 sm:top-0 top-8 md:top-8 z-10"
         />
         <h1 className="text-xl text-blue-400 hidden lg:block">
           DEEP <span className="text-white">NET</span>

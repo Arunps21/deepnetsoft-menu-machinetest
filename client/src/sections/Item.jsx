@@ -49,7 +49,7 @@ function Item() {
       <img
         src={juice1}
         alt="Juice 1"
-        className="absolute top-8 left-4  md:top-0 md:left-24 w-24 md:w-32 z-10"
+        className="absolute top-8 left-4  md:top-0 md:left-24 w-24 md:w-38 z-10"
       />
       <img
         src={juice2}
@@ -64,7 +64,7 @@ function Item() {
               <div className="inline-flex gap-2 items-center">
                 <p className="w-8 sm:w-14 h-[1px] sm:h-[2px] bg-gray-400"></p>
                 <h1
-                  className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold uppercase"
+                  className="text-white text-xl md:text-4xl lg:text-5xl font-bold uppercase"
                   style={{ textShadow: "2px 2px 4px #800020" }}
                 >
                   {menuName}
