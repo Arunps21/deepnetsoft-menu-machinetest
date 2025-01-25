@@ -6,7 +6,6 @@ import { buttonImg } from "../assets/images/image";
 function Button() {
   const [menus, setMenus] = useState([]);
   const { setComponent, url } = useContext(context);
-  console.log(url);
 
   const getMenu = async () => {
     try {
